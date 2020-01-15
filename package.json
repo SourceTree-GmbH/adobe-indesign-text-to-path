@@ -1,0 +1,17 @@
+{
+  "name": "adobe-indesign-remove-guides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "text-to-path.jsx",
+  "scripts": {
+    "lint": "jslint text-to-path.jsx",
+    "build": "mkdir -p dist && js-beautify text-to-path.jsx > dist/text-to-path.jsx",
+    "test": "jslint dist/text-to-path.jsx"
+  },
+  "author": "SourceTree GmbH",
+  "license": "MIT",
+  "devDependencies": {
+    "js-beautify": "^1.10.3",
+    "jslint": "^0.12.1"
+  }
+}
